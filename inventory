@@ -1,13 +1,2 @@
-# Define three hosts with hostnames and custom ports
-
-server1:
-  ansible_host: nhan@192.168.49.1  # Replace with actual hostname
-  ansible_port: 2222                 # Custom port for server1
-
-server2:
-  ansible_host: ubuntu-1@192.168.49.1  # Replace with actual hostname
-  ansible_port: 1111                 # Custom port for server2
-
-server3:
-  ansible_host: ubuntu-2@192.168.49.1  # Replace with actual hostname
-  ansible_port: 3333                 # Custom port for server
+192.168.1.5
+192.168.1.8
